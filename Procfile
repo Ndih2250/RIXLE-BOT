@@ -1,3 +1,1 @@
-worker :
-      Build :
-           Dockerfile
+worker : node index
