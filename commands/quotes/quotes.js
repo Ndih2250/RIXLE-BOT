@@ -17,6 +17,10 @@ async execute(m) {
  let dot = await tolol.json()
  let json = dot.result.quote
 
-m.reply(json)
+J = `
+${json}
+`
+conn.sendButton(m.chat, J, userbot.packname, `/Next➡️`, `quotes`, m)
+
 }
 }
