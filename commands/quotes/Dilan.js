@@ -11,7 +11,7 @@ description: "quotes kata kata dilan",
 utilisation: userbot.prefix + "dilan",
 
 async execute(m) {
- let { conn, text } = data
+ let { conn } = data
 
 let cuk = await kntl('https://github.com/Rizxyu/FEATURE-BOT/raw/main/random/dilan.json')
 let dot = await cuk.json()
