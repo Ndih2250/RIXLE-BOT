@@ -279,12 +279,12 @@ break;
             break;
         
        case "bucin":
-             let tolol = await fetch('https://zenzapi.xyz/api/bucinquote?apikey=exz123')
-             let dt = await tolol.json()
-             let json = dt.result.message
+             let tlol = await fetch('https://zenzapi.xyz/api/bucinquote?apikey=exz123')
+             let dt = await tlol.json()
+             let son = dt.result.message
 
             K = `
-            ${json}
+            ${son}
             `
             conn.sendButton(m.chat, K, userbot.packname, `/Next➡️`, `bucin`, { quoted: m, contextInfo: {"mentionedJid": conn.parseMention(K)}} )
 
@@ -293,12 +293,12 @@ break;
             break;
       
       case "heker":
-            let cuk = await fetch('https://github.com/Rizxyu/FEATURE-BOT/raw/main/random/heker.json')
-            let ot = await cuk.json()
-                let json = ot[Math.floor(Math.random() * ot.length)]
+            let ck = await fetch('https://github.com/Rizxyu/FEATURE-BOT/raw/main/random/heker.json')
+            let ot = await ck.json()
+                let jon = ot[Math.floor(Math.random() * ot.length)]
 
             L = `
-            ${json}
+            ${jon}
             `
             conn.sendButton(m.chat, L, userbot.packname, `/Next➡️`, `heker`, { quoted: m, contextInfo: {"mentionedJid": conn.parseMention(L)}} )
 
@@ -307,12 +307,12 @@ break;
             break;
             
             case "katailham":
-                  let cuk = await fetch('https://github.com/Rizxyu/FEATURE-BOT/raw/main/random/katailham.json')
-                  let do = await cuk.json()
-                      let json = do[Math.floor(Math.random() * do.length)]
+                  let cu = await fetch('https://github.com/Rizxyu/FEATURE-BOT/raw/main/random/katailham.json')
+                  let do = await cu.json()
+                      let jsn = do[Math.floor(Math.random() * do.length)]
 
                   M = `
-                  ${json}
+                  ${jsn}
                   `
                   conn.sendButton(m.chat, M, userbot.packname, `/Next➡️`, `katailham`, { quoted: m, contextInfo: {"mentionedJid": conn.parseMention(M)}} )
 
@@ -321,12 +321,12 @@ break;
                   break;
 
 case "katasenja":
-      let tolol = await fetch('https://zenzapi.xyz/api/katasenja?apikey=exz123')
-       let ddot = await tolol.json()
-       let json = ddot.result.message
+      let tool = await fetch('https://zenzapi.xyz/api/katasenja?apikey=exz123')
+       let ddot = await tool.json()
+       let jso = ddot.result.message
 
       N = `
-      ${json}
+      ${jso}
       `
       conn.sendButton(m.chat, N, userbot.packname, `/Next➡️`, `katasenja`, { quoted: m, contextInfo: {"mentionedJid": conn.parseMention(N)}} )
 
@@ -335,12 +335,12 @@ case "katasenja":
       break;
 
 case "motivasi":
-      let tolol = await fetch('https://zenzapi.xyz/api/motivasi?apikey=exz123')
-       let doot = await tolol.json()
-       let json = doot.result.message
+      let toll = await fetch('https://zenzapi.xyz/api/motivasi?apikey=exz123')
+       let doot = await toll.json()
+       let jjson = doot.result.message
 
       O = `
-      ${json}
+      ${jjson}
       `
       conn.sendButton(m.chat, O, userbot.packname, `/Next➡️`, `motivasi`, { quoted: m, contextInfo: {"mentionedJid": conn.parseMention(O)}} )
 
@@ -349,12 +349,12 @@ case "motivasi":
       break;
 
 case "quotes":
-      let tolol = await fetch('https://zenzapi.xyz/api/random/quote?apikey=exz123')
-       let dott = await tolol.json()
-       let json = dott.result.quote
+      let tolo = await fetch('https://zenzapi.xyz/api/random/quote?apikey=exz123')
+       let dott = await tolo.json()
+       let jsson = dott.result.quote
 
       P = `
-      ${json}
+      ${jsson}
       `
       conn.sendButton(m.chat, P, userbot.packname, `/Next➡️`, `quotes`, { quoted: m, contextInfo: {"mentionedJid": conn.parseMention(P)}} )
 
