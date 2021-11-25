@@ -17,6 +17,10 @@ let cuk = await kntl('https://github.com/Rizxyu/FEATURE-BOT/raw/main/random/heke
 let dot = await cuk.json()
     let json = dot[Math.floor(Math.random() * dot.length)]
 
-m.reply(json)
+J = `
+${json}
+`
+conn.sendButton(m.chat, J, userbot.packname, `/Next➡️`, `heker`, m)
+
 }
 }
