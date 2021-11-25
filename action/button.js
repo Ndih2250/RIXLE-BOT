@@ -288,8 +288,6 @@ break;
             `
             conn.sendButton(m.chat, K, userbot.packname, `/Next➡️`, `bucin`, { quoted: m, contextInfo: {"mentionedJid": conn.parseMention(K)}} )
 
-            }
-            }
             break;
       
       case "heker":
@@ -302,8 +300,6 @@ break;
             `
             conn.sendButton(m.chat, L, userbot.packname, `/Next➡️`, `heker`, { quoted: m, contextInfo: {"mentionedJid": conn.parseMention(L)}} )
 
-            }
-            }
             break;
             
             case "katailham":
@@ -316,8 +312,6 @@ break;
                   `
                   conn.sendButton(m.chat, M, userbot.packname, `/Next➡️`, `katailham`, { quoted: m, contextInfo: {"mentionedJid": conn.parseMention(M)}} )
 
-                  }
-                  }
                   break;
 
 case "katasenja":
@@ -330,8 +324,6 @@ case "katasenja":
       `
       conn.sendButton(m.chat, N, userbot.packname, `/Next➡️`, `katasenja`, { quoted: m, contextInfo: {"mentionedJid": conn.parseMention(N)}} )
 
-      }
-      }
       break;
 
 case "motivasi":
@@ -344,8 +336,6 @@ case "motivasi":
       `
       conn.sendButton(m.chat, O, userbot.packname, `/Next➡️`, `motivasi`, { quoted: m, contextInfo: {"mentionedJid": conn.parseMention(O)}} )
 
-      }
-      }
       break;
 
 case "quotes":
@@ -358,8 +348,6 @@ case "quotes":
       `
       conn.sendButton(m.chat, P, userbot.packname, `/Next➡️`, `quotes`, { quoted: m, contextInfo: {"mentionedJid": conn.parseMention(P)}} )
 
-      }
-      }
       break;
 
    case "audio":
