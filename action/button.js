@@ -280,8 +280,8 @@ break;
         
        case "bucin":
              let tolol = await fetch('https://zenzapi.xyz/api/bucinquote?apikey=exz123')
-             let dot = await tolol.json()
-             let json = dot.result.message
+             let dt = await tolol.json()
+             let json = dt.result.message
 
             K = `
             ${json}
@@ -294,8 +294,8 @@ break;
       
       case "heker":
             let cuk = await fetch('https://github.com/Rizxyu/FEATURE-BOT/raw/main/random/heker.json')
-            let dot = await cuk.json()
-                let json = dot[Math.floor(Math.random() * dot.length)]
+            let ot = await cuk.json()
+                let json = ot[Math.floor(Math.random() * ot.length)]
 
             L = `
             ${json}
@@ -308,8 +308,8 @@ break;
             
             case "katailham":
                   let cuk = await fetch('https://github.com/Rizxyu/FEATURE-BOT/raw/main/random/katailham.json')
-                  let dot = await cuk.json()
-                      let json = dot[Math.floor(Math.random() * dot.length)]
+                  let do = await cuk.json()
+                      let json = do[Math.floor(Math.random() * do.length)]
 
                   M = `
                   ${json}
@@ -322,8 +322,8 @@ break;
 
 case "katasenja":
       let tolol = await fetch('https://zenzapi.xyz/api/katasenja?apikey=exz123')
-       let dot = await tolol.json()
-       let json = dot.result.message
+       let ddot = await tolol.json()
+       let json = ddot.result.message
 
       N = `
       ${json}
@@ -336,8 +336,8 @@ case "katasenja":
 
 case "motivasi":
       let tolol = await fetch('https://zenzapi.xyz/api/motivasi?apikey=exz123')
-       let dot = await tolol.json()
-       let json = dot.result.message
+       let doot = await tolol.json()
+       let json = doot.result.message
 
       O = `
       ${json}
@@ -350,8 +350,8 @@ case "motivasi":
 
 case "quotes":
       let tolol = await fetch('https://zenzapi.xyz/api/random/quote?apikey=exz123')
-       let dot = await tolol.json()
-       let json = dot.result.quote
+       let dott = await tolol.json()
+       let json = dott.result.quote
 
       P = `
       ${json}
