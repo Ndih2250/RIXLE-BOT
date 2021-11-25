@@ -218,7 +218,8 @@ const rawwr = Object.keys(global.Events)
 
 const menu = {
 
-before: `*-*
+before: `*${me}*
+
 Hello ${name}`.trimStart(),
 type: "*#type*\n",
 after: "\n"
@@ -258,7 +259,7 @@ Bot ini boleh digunakan oleh siapa saja asalkan tidak melanggar aturan norma huk
 Dan juga jangan sekali kali spam bot apalagi spam command!
 Gak boleh banding bandingin bot lain sama bot kami!
 
-Bot ini menggunakan prefix ${userbot.prefix}
+Bot ini menggunakan prefix [ ${userbot.prefix} ]
 
 Note : jika Ada bug atau eror silahkan ketik
 ${userbot.prefix}report <apa yg di laporkan>
@@ -276,6 +277,90 @@ break;
             `
             conn.sendButton(m.chat, J, userbot.packname, `Next➡️`, `dilan`, { quoted: m, contextInfo: {"mentionedJid": conn.parseMention(J)}} )
             break;
+        
+       case "bucin":
+             let tolol = await fetch('https://zenzapi.xyz/api/bucinquote?apikey=exz123')
+             let dot = await tolol.json()
+             let json = dot.result.message
+
+            K = `
+            ${json}
+            `
+            conn.sendButton(m.chat, K, userbot.packname, `/Next➡️`, `bucin`, { quoted: m, contextInfo: {"mentionedJid": conn.parseMention(K)}} )
+
+            }
+            }
+            break;
+      
+      case "heker":
+            let cuk = await fetch('https://github.com/Rizxyu/FEATURE-BOT/raw/main/random/heker.json')
+            let dot = await cuk.json()
+                let json = dot[Math.floor(Math.random() * dot.length)]
+
+            L = `
+            ${json}
+            `
+            conn.sendButton(m.chat, L, userbot.packname, `/Next➡️`, `heker`, { quoted: m, contextInfo: {"mentionedJid": conn.parseMention(L)}} )
+
+            }
+            }
+            break;
+            
+            case "katailham":
+                  let cuk = await fetch('https://github.com/Rizxyu/FEATURE-BOT/raw/main/random/katailham.json')
+                  let dot = await cuk.json()
+                      let json = dot[Math.floor(Math.random() * dot.length)]
+
+                  M = `
+                  ${json}
+                  `
+                  conn.sendButton(m.chat, M, userbot.packname, `/Next➡️`, `katailham`, { quoted: m, contextInfo: {"mentionedJid": conn.parseMention(M)}} )
+
+                  }
+                  }
+                  break;
+
+case "katasenja":
+      let tolol = await fetch('https://zenzapi.xyz/api/katasenja?apikey=exz123')
+       let dot = await tolol.json()
+       let json = dot.result.message
+
+      N = `
+      ${json}
+      `
+      conn.sendButton(m.chat, N, userbot.packname, `/Next➡️`, `katasenja`, { quoted: m, contextInfo: {"mentionedJid": conn.parseMention(N)}} )
+
+      }
+      }
+      break;
+
+case "motivasi":
+      let tolol = await fetch('https://zenzapi.xyz/api/motivasi?apikey=exz123')
+       let dot = await tolol.json()
+       let json = dot.result.message
+
+      O = `
+      ${json}
+      `
+      conn.sendButton(m.chat, O, userbot.packname, `/Next➡️`, `motivasi`, { quoted: m, contextInfo: {"mentionedJid": conn.parseMention(O)}} )
+
+      }
+      }
+      break;
+
+case "quotes":
+      let tolol = await fetch('https://zenzapi.xyz/api/random/quote?apikey=exz123')
+       let dot = await tolol.json()
+       let json = dot.result.quote
+
+      P = `
+      ${json}
+      `
+      conn.sendButton(m.chat, P, userbot.packname, `/Next➡️`, `quotes`, { quoted: m, contextInfo: {"mentionedJid": conn.parseMention(P)}} )
+
+      }
+      }
+      break;
 
    case "audio":
   try {
