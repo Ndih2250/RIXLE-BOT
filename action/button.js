@@ -265,6 +265,17 @@ ${userbot.prefix}report <apa yg di laporkan>
 `
 conn.sendButton(m.chat, capt, userbot.packname, 'Menu', 'menu', { quoted: m, contextInfo: {"mentionedJid": conn.parseMention(capt)}} )
 break;
+            
+      case "dilan":
+           let cuk = await fetch('https://github.com/Rizxyu/FEATURE-BOT/raw/main/random/dilan.json')
+            let dot = await cuk.json()
+                let json = dot[Math.floor(Math.random() * dot.length)]
+
+            J = `
+            ${json}
+            `
+            conn.sendButton(m.chat, J, userbot.packname, `Next➡️`, `dilan`, { quoted: m, contextInfo: {"mentionedJid": conn.parseMention(J)}} )
+            break;
 
    case "audio":
   try {
