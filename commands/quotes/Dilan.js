@@ -20,7 +20,7 @@ let dot = await cuk.json()
 J = `
 ${json}
 `
-conn.sendButtonLoc(m.chat, J, userbot.packname, m)
+conn.sendButtonLoc(m.chat, J, userbot.packname, `Next➡️`, `dilan`, m)
 
 }
 }
