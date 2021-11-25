@@ -20,7 +20,7 @@ let dot = await cuk.json()
 J = `
 ${json}
 `
-conn.sendButtonLoc(m.chat, await ( await fetch('https://telegra.ph/file/db171335f79e5eeceefe4.jpg')).buffer(), J, userbot.packname, `🔰Next➡️`, `${userbot.prefix}dilan`, m)
+conn.sendButtonLoc(m.chat, J, userbot.packname, m)
 
 }
 }
