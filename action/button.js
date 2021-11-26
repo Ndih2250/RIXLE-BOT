@@ -304,8 +304,8 @@ break;
             
             case "katailham":
                   let cu = await fetch('https://github.com/Rizxyu/FEATURE-BOT/raw/main/random/katailham.json')
-                  let do = await cu.json()
-                      let jsn = do[Math.floor(Math.random() * do.length)]
+                  let dou = await cu.json()
+                      let jsn = dou[Math.floor(Math.random() * dou.length)]
 
                   M = `
                   ${jsn}
